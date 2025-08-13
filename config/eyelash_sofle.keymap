@@ -26,8 +26,6 @@
     trigger-period-ms = <16>;
 };
 
-&soft_off { hold-time-ms = <5000>; };
-
 / {
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
@@ -35,6 +33,13 @@
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
         tap-ms = <100>;
+    };
+
+    Soft_off: Soft_off {
+        compatible = "zmk,behavior-soft-off";
+        label = "SOFT_OFF";
+        #binding-cells = <0>;
+        hold-time-ms = <3000>;
     };
 
     behaviors {

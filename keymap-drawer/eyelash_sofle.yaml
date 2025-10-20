@@ -137,7 +137,7 @@ layers:
   - F3
   - F4
   - F5
-  - $$mdi:arrow-up-bold$$
+  - '&bl BL_INC'
   - F6
   - F7
   - F8
@@ -150,7 +150,7 @@ layers:
   - $$mdi:volume-high$$
   - PgUp
   - HOME
-  - $$mdi:arrow-down-bold$$
+  - '&bl BL_DEC'
   - F11
   - F12
   - $$mdi:mouse-left-click-outline$$
@@ -163,7 +163,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - PgDn
   - END
-  - $$mdi:arrow-left-bold$$
+  - '&bl BL_CYCLE'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB4'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -176,7 +176,7 @@ layers:
   - NEXT
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - $$mdi:arrow-right-bold$$
+  - '&bl BL_CYCLE'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
   - {t: '$$mdi:backup-restore$$', type: bootloader}
@@ -185,11 +185,11 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '-', s: _}
+  - {t: '=', s: +}
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '&bl BL_TOG'
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '[', s: '{', type: held alternate}
@@ -200,8 +200,8 @@ layers:
   - {t: '-', s: _}
   - +
   - {t: '=', s: +}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: BT DISC, h: '0'}
+  - {t: BT DISC, h: '1'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -213,8 +213,8 @@ layers:
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: BT DISC, h: '2'}
+  - {t: BT DISC, h: '3'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -226,8 +226,8 @@ layers:
   - '4'
   - {t: '5', s: '%'}
   - '6'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -239,8 +239,8 @@ layers:
   - '1'
   - '2'
   - '3'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -248,7 +248,7 @@ layers:
   - '2'
   - '3'
   - .
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:bluetooth-off$$
   - {type: held}
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}

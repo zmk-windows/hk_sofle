@@ -54,11 +54,11 @@
 
         Windows {
             bindings = <
-&kp ESC         &kp N1  &kp N2        &kp N3        &kp N4            &kp N5       &tog 0           &kp N6     &kp N7     &kp N8     &kp N9           &kp N0      &kp BACKSPACE
-&kp TAB         &kp Q   &kp W         &kp E         &kp R             &kp T        &tog 1           &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSLH
-&lt 2 CAPSLOCK  &kp A   &kp S         &kp D         &kp F             &kp G        &bt BT_PRV       &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
-&kp LSHFT       &kp Z   &kp X         &kp C         &kp V             &kp B        &bt BT_NXT       &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp ENTER
-&kp C_MUTE      &mo 3   &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp SPACE    &kp PRINTSCREEN  &kp SPACE  &kp ENTER  &mo 2      &kp RIGHT_SHIFT  &kp DELETE
+&kp ESC          &kp N1  &kp N2        &kp N3        &kp N4            &kp N5       &tog 0           &kp N6     &kp N7     &kp N8     &kp N9           &kp N0      &kp BACKSPACE
+&kp TAB          &kp Q   &kp W         &kp E         &kp R             &kp T        &tog 1           &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSLH
+&lt 2 CAPSLOCK   &kp A   &kp S         &kp D         &kp F             &kp G        &bt BT_PRV       &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
+&kp LSHFT        &kp Z   &kp X         &kp C         &kp V             &kp B        &bt BT_NXT       &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp ENTER
+&kp PRINTSCREEN  &mo 3   &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp SPACE    &kp PRINTSCREEN  &kp SPACE  &kp ENTER  &mo 2      &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
